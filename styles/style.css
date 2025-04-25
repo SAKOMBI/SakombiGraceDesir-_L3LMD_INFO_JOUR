@@ -1,0 +1,200 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+header{
+	margin-left: 20px;
+	margin-top: 30px;
+	margin-right: 10px;
+	padding: 5px 0;
+}
+header nav{
+	float: right;
+    padding-right: 30px;
+
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: blue;
+    padding: 10px;
+   	margin-bottom: 10px;
+
+}
+
+header nav ul a:hover{
+	background: gray;
+	border-radius: 20%;
+	color: white;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+header nav ul{
+    list-style: none; /*Retire les tirê*/
+    display: flex; /*covertir une liste verticale en horizontal*/
+ 	gap: 15px;
+}
+
+.intro{
+	margin: 40px;
+}
+
+h1{
+	margin: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 25px;
+	color: white;
+	background: gray;
+	text-align: center;
+}
+
+
+form{
+	margin-left: 400px;
+	margin-right: 500px;
+	margin-top: 50px;
+	margin-bottom: 100px;	
+	padding-bottom: 80px;
+	padding-top: 10px;
+	background: skyblue;
+}
+
+.saisir{
+	width: 96%;
+	height: 30px;
+	border-radius: 8px;
+	font-size: 16px;
+	padding: 2px;
+	font-family: sans-serif;
+}
+
+.btn{
+	width: 96%;
+	height: 30px;
+	border-radius: 10px;
+	border: none;
+	background: blue;
+	color: white;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+.btn:hover{
+	background: red;
+	color: white;
+	font-weight: bold;
+}
+
+.btn2{
+	display: inline-block;
+	margin-top: 20px;
+	background-color: #007bff;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+.plogin{
+	padding-top: 15px;
+	margin-bottom: -60px;
+	color: gray;
+}
+
+.logo{
+	width: 10%;
+}
+
+img{
+	margin-left: 10px;
+	width: 20%;
+   	padding-top: 10px;
+   
+}
+
+.row{
+	display: flex;
+	margin-right: 200px;
+	padding: 8px;
+}
+
+.res{
+	width: 200px;
+	height: 50px;
+	border-radius: 20px;
+	background: blue;
+	color: white;
+	font-family: sans-serif;
+	font-size: 16px;
+	padding: 10px;
+	text-decoration: none;
+	margin: 300px;
+	margin-top: 20px;
+}
+
+.res:hover{
+	background: gray;
+	color: white;
+}
+
+.pp{
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 30px	;
+	margin-right: 10px;
+}
+
+
+
+
+
+
+/*ici c'est la partie reserve*/
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+
+
+.produits {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.produit {
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.produit img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-r
+  height: 10%;
+}
+
+footer{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+}
+
+.gr_img{
+	border: ;
+	border-radius: 10px 10px 10px 10px;
+}
+
